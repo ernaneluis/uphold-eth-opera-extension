@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "Uphold Ether Ticker - Opera Extensions",
+	"description": "Extension for getting the price of Ether/USD at Uphold.com",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"webRequest",
+		"https://api.uphold.com/v0/ticker/ETH"],
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Go to Dev.Opera!"
+	},
+	"developer": {
+		"name": "Ernane Luis P. Aguiar",
+		"url": "https://github.com/ernaneluis"
+	 }
+}
